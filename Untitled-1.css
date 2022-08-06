@@ -1,0 +1,3547 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ledger&family=Prosto+One&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ledger&family=Oswald&family=Prosto+One&family=Russo+One&display=swap');
+ /*font-family: 'Russo One', sans-serif;  */
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Ledger&family=Oswald&family=Prosto+One&family=Russo+One&display=swap');
+   /* font-family: 'Ledger', serif;*/
+   /*font-family: 'Oswald', sans-serif;*/
+   /*font-family: 'Prosto One', cursive;*/
+body{
+    margin: 0;
+    padding: 0;
+      font-family: 'Ledger', serif;
+}
+.верх_меню{
+    
+    font-size: 15px;
+    font-family: "Russo One", sans-serif;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.верх_меню a{
+    cursor: pointer;
+    color: #c6c6c6;
+}
+
+
+
+.среднее_меню{
+    display: flex;
+    justify-content: space-between;
+}
+.среднее_меню input{
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #333333;
+    text-align: left;
+}
+.среднее_меню div img{
+ width: 35px;
+}
+.среднее_меню a{
+   cursor: pointer;
+}
+.нижнее_меню{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    font-family: 'Oswald', sans-serif;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.нижнее_меню a{
+    text-decoration:none;
+    color: #c6c6c6;
+}
+.нижнее_меню  :hover{
+    color: #ebebeb;
+}
+nav{
+    background-color: #000000;
+    padding: 15px 0;
+}
+.реклама{
+    width: 100%;
+    height: 400px;
+}
+
+
+.post_1{
+    display: flex;
+    padding-top:50px ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.new{
+    width: 50%;
+    background-image: url(photo_amun/сумки.jpg);
+    background-size: cover;
+    height: 500px;
+}
+.new_info{
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.new_info h3{
+    font-size: 29px;
+    font-family: 'Russo One', sans-serif;
+    color: #df7f0c;
+    text-shadow: 1px 1px 2px black;
+}
+.new_info p{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    word-spacing: 4px;
+}
+.new_info a{
+    border: 1px solid #df7f0c;
+    font-family: 'Oswald', sans-serif;
+    padding: 16px 47px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.new_info_a{
+    margin-top: 55px;
+}
+.new_info a:hover{
+ background-color: #171717;
+ color: #df7f0c;
+ border: 1px solid #171717;
+}
+
+
+.info_main{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #3e3e3d;
+    text-shadow: 1px 0 1px #808080;
+}
+.h3_main{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Russo One', sans-serif;
+    text-shadow: 1px 1px 2px #808080;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 25px 25px 25px;
+    color: #808080;
+    margin-top: 120px;
+    font-size: 12px;
+    font-family: 'Russo One', sans-serif;
+}
+footer h3{
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.photo_footer img{
+    width: 20%;
+    cursor: pointer;
+}
+.div_footer a{
+    display: block;
+    text-decoration:none;
+    text-align: left;
+    color: #808080;
+    padding-top: 6px;
+}
+.div_footer a:hover{
+    display: block;
+    text-decoration:none;
+  
+    color: #808080;
+    padding-top: 6px;
+    border-bottom: 1px solid red;
+}
+.div_11{
+    width: 25%;
+    font-size: 12px;
+    margin-left: 5%;
+}
+.div_11 span{
+    color: #ebebeb;
+    font-size: 19px;
+}
+.par_footer{
+    color: aliceblue;
+   
+}
+
+
+
+/*////////////////////blok.katalog/////////////////////////////*/
+.divKatalog img{
+width: 250px;
+height: 250px;
+
+display: flex;
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+.divKatalog{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartochka1 p {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Ledger', serif;
+}
+.divKatalog2 p {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Ledger', serif;
+}
+.divKatalog2{
+    border: 4px solid rgb(236, 234, 234);
+    margin-top:20px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.divKatalog h3{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.5em;
+    font-family: 'Ledger', serif;
+    height: 130px;
+}
+
+
+.Korzin{
+    display: flex;
+    margin: 0 auto;
+    width:max-content;
+ 
+  
+    
+}
+.divKorzin{
+   margin-left: 1px;
+   font-size: 1em;
+   padding-left: 12px;
+   padding-top: 5px;
+   padding-right: 12px;
+   padding-bottom:5px ;
+   border: 3px solid rgba(70, 51, 41, 0.4);
+   border-radius: 6px;
+   
+}
+
+#minys{
+    cursor: pointer;
+}
+#minys:hover{
+    background-color: #171717;
+    color: antiquewhite;
+}
+
+#plus{
+    cursor: pointer;
+}
+#plus:hover{
+    background-color: #171717;
+    color: antiquewhite;
+    
+}
+
+.divButton{
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.divButton button {
+    margin-top: 20px;
+    padding: 10px 60px;
+    font-size: 19px;
+    color: black;
+    background-color:white;
+    border: solid 1px #85c703;
+    border-radius: 6px;
+    cursor: pointer;
+   font-family: "Russo One", sans-serif;;
+}
+
+#buttonKorz:hover{
+    background-color: rgb(24, 0, 161);
+    color: white;
+}
+/* ffffffffffffffffffffffffffffffff        КОРЗИНА ffffffffffffffffffffffffffffffffffffffff
+fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff*/
+.korzina-item{
+    padding-left:20px ;
+    padding-right:20px ;
+    padding-bottom: 20px;
+    height: fit-content;
+    text-align: center;
+}
+
+.cart_wraper .cartochka1{
+    width: 33%;
+}
+.backgraund{
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.cart_wraper {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+
+.korzina-item h4{
+    color: #747d84;
+    font-size: 1.5em;
+    border: solid 1px #85c703;
+    width: fit-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.korzina-item button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    background-color: #0094e9;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 30px;
+        margin-bottom: 30px;
+    
+
+}
+.korzina-item button:hover {
+    background-color: #48b6f7;
+}
+.korzina-item h3{
+    font-size: 20px;
+    padding: none;
+    margin: none;
+}
+.korzina-item img{
+width: 100px;
+}
+.korzinafull{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    background-color: rgba(66, 66, 66, 0.4);
+    font-family: 'Ledger', serif;
+    text-align: center;
+    border-radius:4px ;
+}
+.photoKorzina1{
+    cursor: pointer;
+}
+.photoKorzina2{
+    cursor: pointer;
+}
+.fff{
+    cursor: pointer;
+}
+
+.korzinaPusto{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    background-color: rgba(66, 66, 66, 0.4);
+    font-family: 'Ledger', serif;
+    text-align: center;
+    border-radius:4px ;
+}
+.display{
+    display: none;
+}
+.KakZakazat{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-family: 'Ledger', serif;
+    font-size: 16px;
+}
+.KakZakazat h1{
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing:2px;
+}
+.KakZakazat a{
+    text-decoration:none;
+    color:cadetblue;
+  
+}
+.KakZakazat p{
+    color: #494949;
+}
+.spanGrenn{
+    background-color: rgba(133, 133, 133, 0.4);
+    color: black;
+    font-weight:bold;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.otziv img {
+    width: 100%;
+    cursor: pointer;
+}
+.bottonotziv{
+    margin: 0px;
+    margin-bottom:-120px ;
+    background-color: #0b1d35;
+}
+
+
+
+.bottonKontakt img{
+    width: 40%;
+}
+.flex{
+    display: flex;
+    
+    
+
+}
+.gggg1{
+    margin-right: 5%;
+    font-size: 16px;
+}
+.width{
+    width: 25%;
+    height: 300px;
+}
+.contentit{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mapa{
+    margin-top: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+.h1otzivi{
+    margin-top: 0px;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 50px;
+    letter-spacing:3px;
+}
+header h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.hulkSpan{
+    color: #ffff01;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-text-stroke: 0.01px #000000;
+}
+.glovnai11 img {
+     width: 30%;
+}
+.glovnai11{
+    width:33%;
+}
+.glovnai1 img{
+    width: 50%;
+    margin: 0 auto;
+}
+.среднее_меню{
+    width: 375px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.katalogItem {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.element229{
+    width: 33%;
+}
+.katalogH3 span{
+    color: #85c703;
+}
+
+.katalogItem img{
+    width: 70%;
+    border:solid 2px rgba(133, 133, 133, 0.7);
+    border-radius: 5px;
+}
+
+
+.katalogH3{
+    text-align: center;
+    font-size: 30px;
+    color: #747d84;
+
+}
+
+
+.katalogItem p{
+    color: rgb(82, 82, 82);
+    font-size: 16px;
+    font-family: "Russo One", sans-serif;
+}
+.katalogItem div {
+    width: 33%;
+    margin-top: 25px;
+}
+
+.itemdis1 img{
+    width: 50%;
+}
+.tovarka{
+    width: 50%;
+}
+.g1211{
+    margin-left: 30px;
+}
+.heell1{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.cartochka1 img{
+    width: 90%;
+    border: solid 2px rgba(133, 133, 133, 0.7);
+    border-radius: 5px;
+}
+
+
+.tovarka{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.kontrol{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cartochka1{
+    margin-top:20px;
+    width: 33%;
+    margin: 0 auto;
+   padding-top: 20px;
+    
+}
+
+.tovarElevent .cartochka1{
+    text-align: center;
+    width: 100%;
+}
+
+.tovarElevent img{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.opisanii p{
+    text-align: left ;
+    padding-left:15px ;
+}
+#prise {
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.opisanii h2{
+    margin-left: 25px;
+    width: fit-content;
+    border-bottom:2px solid #85c703; 
+}
+
+.photoBack{
+    width: 10%;
+}
+
+.photoBack img{
+    width: 50px;
+    margin-left: 10px;
+    text-align: center;
+}
+.prise-item{
+    color:#073801;
+    font-weight: bold;
+}
+.tovarElevent #span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.tovarkaCreatin{
+    width: 50%;
+}
+
+
+.tovarkaCreatin{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.tovarkaCreatin .cartochka1{
+    height: max-content;
+}
+.tovarkageiner{
+    text-align: center;
+}
+.tovarkaamino {
+    text-align: center;
+}
+.tovarkabcaa{
+    text-align: center;
+}
+.holigan776{
+        
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+.mapafff{
+    width: 150px;
+}
+.tovarkarnetin{
+    text-align: center;
+}
+.tovarzhirozig{
+    text-align: center;
+}
+.tovarvitamin{
+    text-align: center;
+}
+.tovarbatonchik{
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.tovarbatonchik1{
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.katalogTovar a{
+    text-decoration: none;
+}
+.h3photo{
+    width: 100px;
+    padding-left: 87%;
+    margin-top: -80px;
+}
+.h3photo img{
+    width: 65%;
+    padding-left: 10px;
+}
+.korzin123{
+    font-family: 'Ledger', serif;
+    font-size: 1 em;
+    
+}
+.obchaaChena{
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    border-bottom: 2px solid #85c703;
+  
+}
+.obchaaChena span{
+    color: #073801;
+    font-weight: bold;
+}
+.delivaryCost{
+    font-weight: bold;
+}
+.buttonFlex{
+    width: fit-content;
+    margin: 0 auto;
+}
+.buttonZakaza{
+    margin-right: 10px;
+}
+.widthImgpx{
+    width: 30px;
+    margin-bottom: -3%;
+}
+.kartaoplata{
+    background-color: #293c5d;
+    width: 368px;
+    height: 232px;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.submit{
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    background-color: #0094e9;
+    color: white;
+    font-size: 18px;
+    margin-left: 66%;
+    border: none;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 4px;
+
+}
+.submit:hover{
+    background-color: #48b6f7;
+}
+.kartaoplata input{
+    height: 20px;
+    width: 80%;
+    outline: none;
+    border: none;
+    background-color: #293c5d;
+    color:rgb(228, 226, 226);
+    border-bottom: 1px solid white;
+    font-size: 18px;
+}
+.kartaoplata input::placeholder {
+    color: rgb(202, 200, 200);
+  }
+.inputkarta{
+    width: fit-content;
+    margin-left: 30px;
+    margin-top: 45px;
+}
+.cartochka1 h3{
+    height: 40px;
+    font-size: 20px;
+}
+.cvvclass{
+    margin-top: 20px;
+    padding-left: 30px;
+}
+.cvvclass input{
+    width: 25%;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+.hohoh{
+    margin-left: 30px;
+}
+.cvvclass p {
+    color: rgba(202, 201, 201, 0.877);
+}
+.kartaoplata img{
+    width: 100px;
+    margin-left: 70%;
+}
+.zakaz1{
+    font-family: 'Ledger', serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.zakaz1divborder{
+    padding-top: 20px;
+    border:1px solid rgb(216, 215, 215);
+    margin-bottom: 130px;
+}
+.zakaz1 h4 span{
+    color: #216cec;
+}
+.zakaz1 h3{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.zakaz1 h4{
+    background-color: #ebebeb;
+    padding-top: 20px;
+    padding-left: 22px;
+    padding-bottom: 20px;
+}
+.zakaz1 input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 200px;
+    font-size: 15px;
+    margin-top: 5px;
+    border: none;
+    width: fit-content;
+    border-bottom:2px solid black ;
+}
+.pzaka1 p{
+    width: 250px;
+    margin-left: 30px;
+
+}
+.pzakaz1p2{
+    font-size: 12px;
+    margin-left: 350px;
+}
+.daleezakaz2{
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    background-color: #0094e9;
+    color: white;
+    font-size: 18px;
+    margin-left: 610px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.daleezakaz2:hover{
+    background-color: #48b6f7;
+}
+.daleezakaz3{
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    background-color: #0094e9;
+    color: white;
+    font-size: 18px;
+    margin-left:610px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.daleezakaz3:hover{
+    background-color: #48b6f7;
+}
+.photo_footer{
+    margin-top: 5%;
+}
+input[type="radio"] {
+    width: 20px !important;
+    height: 20px;
+}
+
+.pzaka1 p {
+    font-size: 20px;
+}
+.zakaz2 h4{
+    background-color: #ebebeb;
+    padding-top: 20px;
+    padding-left: 22px;
+    padding-bottom: 20px;
+}
+.zakaz2 span{
+    color: #216cec;
+}
+.zakaz2{
+    font-family: 'Ledger', serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.zakaz2 input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 200px;
+    font-size: 15px;
+    margin-top: 5px;
+    border: none;
+    width: fit-content;
+    border-bottom:2px solid black ;
+}
+.zakaz3 h4{
+    background-color: #ebebeb;
+    padding-top: 20px;
+    padding-left: 22px;
+    padding-bottom: 20px;
+}
+.zakaz3{
+    font-family: 'Ledger', serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 160px;
+}
+.zakaz3 span{
+    color: #216cec;
+}
+.oldbuttonKarta{
+    width: 280px;
+    height: 280px;
+}
+
+
+
+.oldbuttonKarta img{
+    width: 70%;
+}
+.zakaz3button{
+    width: fit-content;
+    margin: 0 auto;
+}
+.buttonremoveFFF {
+    margin-top: 20px;
+    padding: 10px 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    background-color: #0094e9;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: auto auto;
+}
+
+
+.preki{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Ledger', serif;
+    font-size: 22px;
+    border-bottom: 1px solid rgb(206, 204, 204);
+    margin-bottom: 10px;
+}
+.preki1{
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Ledger', serif;
+    font-size: 22px;
+    border-bottom: 1px solid rgb(206, 204, 204);
+    margin-bottom: 10px;
+}
+.flex3232{
+    display: flex ;
+    flex-wrap: wrap;
+}
+
+.formrems{
+    margin-bottom: 200px;
+}
+.bottonimg{
+    width: 70%;
+}
+.input1321{
+    font-size: 15px ;
+    margin-left: 27px ;
+}
+
+
+.ifi{
+    height: 400px;
+    text-align: center;
+    font-size: 1.5em; 
+   background-color: #f5f5f5;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+.ifi div{
+    padding-top: 70px;
+}
+.ifi button{
+    padding: 10px 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    background-color: #0094e9;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.ifi button:hover{
+    background-color: #48b6f7;
+}
+
+
+.kraymeny img{
+    width: 5%;
+}
+
+
+
+.imgAdaptive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+@media(min-width: 950px) and (max-width:1200px){
+.tovarElevent .cartochka1 img {
+    width: 60%;
+    height: 60%;
+}
+}
+@media(min-width: 300px) and (max-width:400px){
+    .burger {
+        display: block;
+}
+.cart_wraper img{
+    width: 120%;
+   margin-left: -10%;
+}
+.backgraund{
+    padding-bottom: 0px;
+}
+.cartochka1{
+    padding-top: 5px;
+}
+
+.hohoh{
+    margin-left: 0px;
+}
+
+.cartochka1{
+    padding-top: 10px;
+}
+.gggg1{
+    font-size: 10px;
+}
+.kartaoplata img{
+    margin-left: 62%;
+    width: 80px;
+}
+.flex3232 p{
+    width:80%;
+}
+.element229{
+    width: 50% !important;
+}
+
+.input1321 {
+    margin-left: 17px;
+}
+
+
+.widthImgpx{
+    width: 25px;
+    margin-bottom: -5px;
+}
+
+
+.cvvclass p{
+    font-size: 11px;
+}
+.cvvclass{
+    margin-top: 0px;
+   padding-left:17px;
+}
+.bottonKontakt img{
+    width: 25%;
+}
+.holigan776{
+    padding-top: 0px;
+}
+.jjj212{
+    display: none;
+}
+.cart_wraper .cartochka1 {
+    width: 50%;
+}
+.cartochka1 h3{
+    height: 40px;
+}
+.korzina-item button {
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    margin-top: 15px;
+        margin-bottom: 15px;
+}
+.prise-item{
+    font-size: 13px !important;
+}
+.submit{
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    margin-left:180px;
+    margin-top: 25px;
+}
+.zakaz1 input{
+    padding-right: 65px;
+    font-size: 12px;
+    margin-right: 10px !important;
+    width: fit-content;
+    margin-left: 10%;
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+.heell1 label {
+    margin-top: -5px;
+}
+.zakaz1 h3{
+font-size: 10px;
+}
+.zakaz1 h4{
+    font-size: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cartochka1 h3{
+    font-size: 14px;
+    
+}
+.tovarElevent #span{
+    font-size: 15px;
+}
+.divButton button{
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+footer {
+    margin-top: 30px;
+}
+.pzaka1 p{
+    font-size: 14px;
+    width: fit-content;
+   text-align: center;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   margin-left: 10%;
+}
+.cart_wraper{
+    padding-top: 0px;
+}
+.zakaz3 h4{
+    font-size: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.preki1{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.kartaoplata{
+    background-color: #293c5d;
+    width: 268px;
+    height: 172px;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+.preki{
+    font-size: 13px;
+}
+.inputkarta{
+    margin-top: 30px;
+    margin-left: 17px;
+}
+
+.kartaoplata input{
+    font-size: 12px;
+   
+}
+.oldbuttonKarta img {
+    width: 100%;
+}
+.zakaz3button{
+    margin-top: 10px;
+}
+.pzakaz1p2{
+    margin-left: 18%;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.daleezakaz2{
+    margin-left: 70%;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+.heell1{
+    font-size: 12px;
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 10px;
+    
+}
+.zakaz1divborder{
+    margin-bottom: 30px;
+}
+.heell1 input{
+    padding-left: 0px;
+    margin-left: 0px !important;
+}
+.pzaka1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.zakaz2 input{
+    padding-right: 75px;
+    font-size: 12px;
+    margin-right: 4px !important;
+    border-bottom: 1px solid black;
+    width: fit-content;
+    margin-left: 10%;
+    padding-left: 0px;
+}
+.daleezakaz3{
+    margin-left: 70%;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+.divKorzin {
+    margin-left: 1px;
+    font-size: 12px;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+}
+.zakaz2 h4{
+    font-size: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.opisanii h2{
+    font-size: 14px;
+    margin-right: 25px;
+}
+.opisanii p{
+    font-size: 14px;
+}
+.верх_меню{
+    display: none;
+}
+.среднее_меню{
+    padding: 0px;
+    width: 100%;
+}
+.burger img{
+    width: 7%;
+}
+.katalogH3{
+    font-size: 17px;
+    margin-top: 30px;
+}
+.h3photo img {
+    width: 35%;
+    margin-left:10px ;
+}
+.katalogItem p{
+    font-size: 13px;
+    margin-left: 0px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.korzinaPusto{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 11px;
+    width: 70px;
+}
+
+.korzinafull{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    width: 70px;
+}
+.korzina-item h4{
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cartochka1 p{
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+.korzin123{
+    font-size: 12px;
+
+}
+footer h3{
+    font-size: 13px;
+}
+footer{
+    font-size: 7px;
+    padding: 15px 25px 15px 25px
+}
+.ifi{
+    font-size: 14px;
+}
+.ifi button{
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 14px;   
+
+}
+
+.buttonremoveFFF{
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 14px;  
+    margin-top: 120px;
+}
+.bottonGarant img{
+    width: 100%;
+}
+
+.div_11 span{
+    font-size: 12px;
+}
+.div_11{
+    font-size: 7px;
+    margin: 0px;
+}
+.bottonimg{
+    width: 110%;
+}
+.photo_footer img{
+    width: 28%;
+}
+.KakZakazat h1{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.mapafff{
+    display: none;
+}
+.hulkSpan{
+    font-size: 14px;
+}
+.contentit{
+    width: 120%;
+    padding: 0px;
+}
+.KakZakazat{
+    font-size: 13px;
+    margin-right: 0px;
+}
+.h1otzivi{
+    padding-top: 20px;
+}
+.tinymce-default{
+width: 100%;
+height: 220px;
+}
+.otziv img{
+    width: 100%;
+}
+.jkj3232{
+    width: 300px;
+    margin: 0 auto;
+}
+.bottonotziv{
+    margin-bottom: 0px;
+}
+header h1{
+    padding: 0px;
+}
+.h3photo{
+    margin-top: 0px;
+    padding-left: 70%;
+}
+.burgerplace{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.divburger a{
+    width: 100%;
+    color: white;
+    padding-top: 8px;
+    font-family: "Russo One", sans-serif;
+    font-size: 14px;
+}
+.divburger{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+    padding: 5px 0;
+}
+.реклама{
+    height: 150px;
+}
+.glovnai1 img{
+    width: 27%;
+}
+.width {
+    width: 100%;
+    height: 250px;
+    margin-left: 20px;
+}
+
+.tovarkaCreatin .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarkageiner .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarkaamino .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarkaamino .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarkabcaa .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarkabcaa .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+
+}
+.tovarkarnetin .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarkarnetin .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;;
+}
+.tovarzhirozig .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarvitamin .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarvitamin .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarbatonchik .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarbatonchik1 .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarbatonchik .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarbatonchik1 .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarzhirozig .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.tovarkageiner .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarkaCreatin .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarka .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.photoBack img {
+    width: 32px;
+    margin-left: 10px;
+}
+.katalogItem img{
+    width: 90%;
+}
+.tovarka .flex{
+    display: flex;
+flex-wrap: wrap;
+
+}
+.oldbuttonKarta{
+    width: 90px;
+    height: 90px;
+}
+.holigan776{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* .tovarka .flex img{
+    width: 70%;
+  }
+ 
+  .tovarkaCreatin .flex img{
+    width: 70%;
+  }
+  .tovarkageiner .flex img{
+    width: 70%;
+  }
+  .tovarkaamino .flex img{
+    width: 70%;
+  }
+  .tovarkabcaa .flex img{
+    width: 70%;
+  }
+  .tovarkarnetin .flex img{
+    width: 70%;
+  }
+  .tovarzhirozig .flex img{
+    width: 70%;
+  }
+  .tovarvitamin .flex img{
+    width: 70%;
+  }
+  .tovarbatonchik .flex img{
+    width: 70%;
+  } */
+}
+
+
+
+@media(min-width: 400px) and (max-width:500px){
+    .burger {
+        display: block;
+}
+.zakaz1divborder {
+    margin-bottom: 30px;
+}
+.heell1 input {
+    padding-left: 0px;
+    margin-left: 0px !important;
+}
+.cart_wraper img {
+    width: 130%;
+    margin-left: -14%;
+}
+.photoBack img{
+    margin-left: 10px;
+}
+.cartochka1{
+    padding-top: 10px;
+}
+.gggg1 {
+    font-size: 10px;
+}
+.oldbuttonKarta{
+    width: 120px;
+    height: 120px;
+}
+
+.cart_wraper .cartochka1 {
+    width: 50%;
+}
+.cartochka1 h3{
+    height: 40px;
+}
+.korzina-item button {
+    padding-left: 14px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    margin-top: 20px;
+        margin-bottom: 20px;
+}
+.prise-item{
+    font-size: 14px !important;
+}
+.submit{
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    margin-left:260px;
+}
+.zakaz1 input{
+    font-size: 12px;
+    margin-right: 10px !important;
+    width: fit-content;
+    margin-left: 14%;
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 150px;
+}
+.zakaz1 h3{
+font-size: 12px;
+}
+.zakaz1 h4{
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cartochka1 h3{
+    font-size: 15px;
+    
+}
+.tovarElevent #span{
+    font-size: 17px;
+}
+.divButton button{
+    font-size: 14px;
+    padding: 10px 40px;
+}
+.pzaka1 p{
+    font-size: 14px;
+    width: fit-content;
+   text-align: center;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   margin-left: 14%;
+}
+.pzaka1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.zakaz3 h4{
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.preki1{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.preki{
+    font-size: 16px;
+}
+.cvvclass p{
+    font-size: 14px;
+}
+.kartaoplata input{
+    font-size: 14px;
+}
+.oldbuttonKarta img {
+    width: 80%;
+}
+.zakaz3button{
+    margin-top: 10px;
+}
+.pzakaz1p2{
+    margin-left: 22%;
+    font-size: 12px;
+    margin-top: 0px;
+}
+.daleezakaz2{
+    margin-left: 75%;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.holigan776{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.zakaz2 input{
+    padding-right: 75px;
+    font-size: 12px;
+    margin-right: 4px !important;
+    border-bottom: 1px solid black;
+    width: fit-content;
+    margin-left: 14%;
+    padding-right: 150px;
+    padding-left: 0px;
+}
+.heell1 {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 14%;
+    padding-top: 10px;
+}
+.heell1 label {
+    margin-top: -5px;
+}
+.daleezakaz3{
+    margin-left: 75%;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 20px
+}
+.divKorzin {
+    margin-left: 1px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+}
+.zakaz2 h4{
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.opisanii h2{
+    font-size: 16px;
+    margin-right: 25px;
+}
+.opisanii p{
+    font-size: 14px;
+}
+.верх_меню{
+    display: none;
+}
+.среднее_меню{
+    padding: 0px;
+}
+.burger img{
+    width: 7%;
+}
+.katalogH3{
+    font-size: 18px;
+    margin-top: 30px;
+}
+.h3photo img {
+    width: 40%;
+    margin-left:20px ;
+}
+.katalogItem p{
+    font-size: 14px;
+    margin-left: 0px;
+}
+.korzinaPusto{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.korzinafull{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+.korzina-item h4{
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cartochka1 p{
+    font-size: 12px;
+}
+.korzin123{
+    font-size: 13px;
+
+}
+footer h3{
+    font-size: 14px;
+}
+footer{
+    font-size: 8px;
+}
+.ifi{
+    font-size: 16px;
+}
+.ifi button{
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 14px;   
+
+}
+
+.buttonremoveFFF{
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 14px;  
+    margin-top: 20px;
+}
+.bottonGarant img{
+    width: 100%;
+}
+
+.div_11 span{
+    font-size: 14px;
+}
+.div_11{
+    font-size: 8px;
+}
+.bottonimg{
+    width: 95%;
+}
+.photo_footer img{
+    width: 28%;
+}
+.KakZakazat h1{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.mapafff{
+    display: none;
+}
+.hulkSpan{
+    font-size: 14px;
+}
+.contentit{
+    width: 100%;
+  
+}
+.KakZakazat{
+    font-size: 14px;
+}
+.h1otzivi{
+    padding-top: 20px;
+}
+.tinymce-default{
+width: 100%;
+height: 180px;
+}
+.otziv img{
+    width: 100%;
+}
+.jkj3232{
+    width: 300px;
+    margin: 0 auto;
+}
+.bottonotziv{
+    margin-bottom: 0px;
+}
+header h1{
+    padding: 0px;
+}
+.h3photo{
+    margin-top: 0px;
+    padding-left: 70%;
+}
+.burgerplace{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.divburger a{
+    width: 100%;
+    color: white;
+    padding-top: 8px;
+    font-family: "Russo One", sans-serif;
+    font-size: 16px;
+}
+.divburger{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+    padding: 5px 0;
+}
+.реклама{
+    height: 180px;
+}
+.glovnai1 img{
+    width: 30%;
+}
+.width {
+    width: 40%;
+    height: 200px;
+    margin-left: 25px;
+}
+
+.tovarkaCreatin .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarkageiner .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarkaamino .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarkaamino .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarkabcaa .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarkabcaa .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarkarnetin .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarkarnetin .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarzhirozig .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarvitamin .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarvitamin .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarbatonchik .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarbatonchik1 .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarbatonchik .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarbatonchik1 .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarzhirozig .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.tovarkageiner .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarkaCreatin .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarka .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.photoBack img {
+    width: 33px;
+}
+.katalogItem img{
+    width: 80%;
+}
+.tovarka .flex{
+    display: flex;
+flex-wrap: wrap;
+
+}
+.tovarka .flex img{
+    width: 80%;
+  }
+  .tovarkaCreatin .flex img{
+    width: 70%;
+  }
+  .tovarkaCreatin .flex img{
+    width: 70%;
+  }
+  .tovarkageiner .flex img{
+    width: 70%;
+  }
+  .tovarkaamino .flex img{
+    width: 70%;
+  }
+  .tovarkabcaa .flex img{
+    width: 70%;
+  }
+  .tovarkarnetin .flex img{
+    width: 70%;
+  }
+  .tovarzhirozig .flex img{
+    width: 70%;
+  }
+  .tovarvitamin .flex img{
+    width: 70%;
+  }
+  .tovarbatonchik .flex img{
+    width: 70%;
+  }
+  .tovarbatonchik1 .flex img{
+    width: 70%;
+  }
+
+
+}
+@media(min-width: 501px) and (max-width:700px){
+    .burger {
+        display: block;
+}
+.zakaz1divborder {
+    margin-bottom: 30px;
+}
+.heell1 input {
+    padding-left: 0px;
+    margin-left: 0px !important;
+}
+.cart_wraper img {
+    width: 130%;
+    margin-left: -14%;
+}
+.zakaz2 input {
+    padding-right: 75px;
+    font-size: 12px;
+    margin-right: 4px !important;
+    border-bottom: 1px solid black;
+    padding-right: 200px;
+    width: fit-content;
+    margin-left: 14%;
+    padding-left: 0px;
+}
+.photoBack img{
+    margin-left: 10px;
+}
+.cartochka1{
+    padding-top: 10px;
+}
+.gggg1 {
+    margin-right: 5%;
+    font-size: 13px;
+}
+.cart_wraper .cartochka1 {
+    width: 50%;
+}
+.oldbuttonKarta{
+    width: 150px;
+    height: 150px;
+}
+.korzina-item button {
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    margin-top: 30px;
+        margin-bottom: 30px;
+}
+.submit{
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    margin-left:260px;
+}
+.zakaz1 input{
+    font-size: 12px;
+    margin-right: 10px !important;
+    width: fit-content;
+    margin-left: 14%;
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 200px;
+}
+.zakaz1 h3{
+font-size: 12px;
+}
+.zakaz1 h4{
+    font-size: 12px;
+}
+.cartochka1 h3{
+    font-size: 17px;
+    
+}
+.tovarElevent #span{
+    font-size: 18px;
+}
+.divButton button{
+    font-size: 14px;
+    padding: 10px 40px;
+}
+.pzaka1 p{
+    font-size: 14px;
+    width: fit-content;
+   text-align: center;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   margin-left: 14%;
+}
+.zakaz3 h4{
+    font-size: 12px;
+}
+.preki1{
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.preki{
+    font-size: 17px;
+}
+.cvvclass p{
+    font-size: 14px;
+}
+.kartaoplata input{
+    font-size: 14px;
+}
+.oldbuttonKarta img {
+    width: 70%;
+}
+.pzakaz1p2{
+    margin-left: 30%;
+}
+.daleezakaz2{
+    margin-left: 80%;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.daleezakaz3{
+    margin-left: 80%;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.divKorzin {
+    margin-left: 1px;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+}
+.zakaz2 h4{
+    font-size: 12px;
+}
+.opisanii h2{
+    font-size: 18px;
+    margin-right: 25px;
+}
+.opisanii p{
+    font-size: 14px;
+}
+.верх_меню{
+    display: none;
+}
+.среднее_меню{
+    padding: 0px;
+}
+.burger img{
+    width: 5%;
+}
+.katalogH3{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.h3photo img {
+    width: 50%;
+    margin-left:13px ;
+}
+.katalogItem p{
+    font-size: 14px;
+}
+.korzinaPusto{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+.korzinafull{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 13px;
+}
+.korzina-item h4{
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cartochka1 p{
+    font-size: 14px;
+}
+.korzin123{
+    font-size: 14px;
+
+}
+footer h3{
+    font-size: 18px;
+}
+footer{
+    font-size: 10px;
+}
+.ifi{
+    font-size: 16px;
+}
+.ifi button{
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 16px;   
+
+}
+
+.buttonremoveFFF{
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    font-size: 16px;  
+}
+
+.div_11 span{
+    font-size: 16px;
+}
+.div_11{
+    font-size: 10px;
+}
+.bottonimg{
+    width: 110%;
+}
+.photo_footer img{
+    width: 28%;
+}
+.KakZakazat h1{
+    font-size: 18px;
+}
+.hulkSpan{
+    font-size: 14px;
+}
+.KakZakazat{
+    font-size: 14px;
+}
+.h1otzivi{
+    padding-top: 20px;
+}
+.otziv img{
+    width: 100%;
+}
+.jkj3232{
+    width: 300px;
+    margin: 0 auto;
+}
+.bottonotziv{
+    margin-bottom: 0px;
+}
+header h1{
+    padding: 0px;
+}
+.h3photo{
+    margin-top: 0px;
+    padding-left: 78%;
+}
+.burgerplace{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.divburger a{
+    width: 100%;
+    color: white;
+    padding-top: 8px;
+    font-family: "Russo One", sans-serif;
+    font-size: 20px;
+}
+.divburger{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+    padding: 5px 0;
+}
+.реклама{
+    height: 220px;
+}
+.glovnai1 img{
+    width: 35%;
+}
+.width {
+    width: 50%;
+    height: 300px;
+}
+.contentit{
+    padding-left: 40px;
+}
+.tovarkaCreatin .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarkageiner .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarkaamino .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarkaamino .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarkabcaa .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarkabcaa .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarkarnetin .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarkarnetin .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarzhirozig .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarvitamin .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarvitamin .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarbatonchik .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarbatonchik1 .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarbatonchik .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarbatonchik1 .flex{
+    display: flex;
+flex-wrap: wrap;
+}
+.tovarzhirozig .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.tovarkageiner .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarkaCreatin .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.tovarka .cartochka1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.photoBack img {
+    width: 40px;
+}
+.katalogItem img{
+    width: 80%;
+}
+.tovarka .flex{
+    display: flex;
+flex-wrap: wrap;
+
+}
+.tovarka .flex img{
+    width: 70%;
+  }
+  .tovarkaCreatin .flex img{
+    width: 70%;
+  }
+  .tovarkaCreatin .flex img{
+    width: 70%;
+  }
+  .tovarkageiner .flex img{
+    width: 70%;
+  }
+  .tovarkaamino .flex img{
+    width: 70%;
+  }
+  .tovarkabcaa .flex img{
+    width: 70%;
+  }
+  .tovarkarnetin .flex img{
+    width: 70%;
+  }
+  .tovarzhirozig .flex img{
+    width: 70%;
+  }
+  .tovarvitamin .flex img{
+    width: 70%;
+  }
+  .tovarbatonchik .flex img{
+    width: 70%;
+  }
+  .tovarbatonchik1 .flex img{
+    width: 70%;
+  }
+  .heell1 {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 14%;
+    padding-top: 10px;
+}
+.pzaka1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+}
+@media(min-width: 701px) and (max-width:950px){
+    .glovnai1 img{
+        width: 43%;
+    }
+    .heell1{
+        font-size: 15px;
+    }
+    .zakaz1divborder {
+        margin-bottom: 30px;
+    }
+    .cart_wraper img {
+        width: 160%;
+        margin-left: -28%;
+    }
+    .cartochka1 h3{
+        font-size: 20px;
+        
+    }
+    input[type="radio"] {
+         width: 15px !important; 
+         height: 15px; 
+       
+    }
+ 
+    label{
+        position: relative;
+        align-items: center;
+    }
+
+    .photoBack img{
+        margin-left: 10px;
+    }
+    .cartochka1{
+        padding-top: 10px;
+    }
+    .oldbuttonKarta{
+        width: 150px;
+        height: 150px;
+    }
+    .gggg1 {
+        margin-right: 5%;
+        font-size: 14px;
+    }
+    .contentit{
+        padding-left: 40px;
+    }
+    .otziv img{
+        width: 100%;
+    }
+    .bottonotziv{
+        margin-bottom: 0px;
+    }
+    .KakZakazat h1 {
+        letter-spacing: 0.5px;
+        font-size: 1.5em;
+    }
+    .jkj3232{
+        width: 300px;
+        margin: 0 auto;
+    }
+    
+    .burger{
+        display: block;
+    }
+    .preki{
+        font-size: 20px;
+    }
+    .width {
+        width: 50%;
+        height: 300px;
+    }
+    .flex3232 p{
+        width:80%;
+    }
+    .ifi div {
+       padding: 0;
+    }
+    .oldbuttonKarta img{
+        width: 80%;
+    }
+    .opisanii h2{
+        font-size: 20px;
+    }
+    .tovarElevent #span{
+        font-size: 20px;
+    }
+    nav{
+        padding: 0;
+    }
+    nav{
+        padding-top: 10px;
+
+    }
+    .среднее_меню{
+        padding: 0;
+    }
+    .tovarElevent .cartochka1 img {
+        width: 40%;
+    }
+  .tovarka .flex img{
+    width: 70%;
+  }
+  .tovarkaCreatin .flex img{
+    width: 70%;
+  }
+  .tovarkaCreatin .flex img{
+    width: 70%;
+  }
+  .tovarkageiner .flex img{
+    width: 70%;
+  }
+  .tovarkaamino .flex img{
+    width: 70%;
+  }
+  .tovarkabcaa .flex img{
+    width: 70%;
+  }
+  .tovarkarnetin .flex img{
+    width: 70%;
+  }
+  .tovarzhirozig .flex img{
+    width: 70%;
+  }
+  .tovarvitamin .flex img{
+    width: 70%;
+  }
+  .tovarbatonchik .flex img{
+    width: 70%;
+  }
+  .tovarbatonchik1 .flex img{
+    width: 70%;
+  }
+  .katalogItem img{
+    width: 80%;
+  }
+  .korzina-item button{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 16px;
+  }
+  .korzina-item h4 {
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+  .submit{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+  }
+  .daleezakaz2{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-left: 560px;
+    font-size: 16px;
+  }
+  .daleezakaz3 {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    margin-left: 560px;
+    font-size: 16px;
+  }
+  .h3photo {
+    padding-left: 84%;
+  }
+  .preki1{
+    font-size: 17px;
+  }
+  .pzaka1 p{
+    width: 250px;
+  }
+  .korzin123{
+    font-size: 1em;
+  }
+  .zakaz1 h3{
+    font-size: 14px;
+  }
+  .zakaz3 h4{
+    font-size: 14px;
+  }
+  
+  .zakaz2 h4{
+    font-size: 14px;
+  }
+  .zakaz1 h4{
+    font-size: 14px;
+  }
+  .pzakaz1p2{
+    font-size: 14px;
+  }
+    .реклама {
+        width: 100%;
+        height: 300px;
+    }
+    .burger img{
+        width: 5%;
+    }
+    .tovarkaCreatin .flex{
+        display: flex;
+    flex-wrap: wrap;
+    }
+    .tovarkageiner .flex{
+        display: flex;
+    flex-wrap: wrap;
+    }
+    .tovarkaamino .flex{
+        display: flex;
+    flex-wrap: wrap;
+    }
+    .tovarkaamino .cartochka1{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .tovarkabcaa .flex{
+        display: flex;
+    flex-wrap: wrap;
+    }
+    .tovarkabcaa .cartochka1{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .tovarkarnetin .flex{
+        display: flex;
+    flex-wrap: wrap;
+    }
+    .tovarkarnetin .cartochka1{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .tovarzhirozig .flex{
+        display: flex;
+    flex-wrap: wrap;
+    }
+    .tovarvitamin .cartochka1{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .tovarvitamin .flex{
+        display: flex;
+    flex-wrap: wrap;
+    }
+    .tovarbatonchik .cartochka1{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .tovarbatonchik1 .cartochka1{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .tovarbatonchik .flex{
+        display: flex;
+    flex-wrap: wrap;
+    }
+    .tovarbatonchik1 .flex{
+        display: flex;
+    flex-wrap: wrap;
+    }
+    .tovarzhirozig .cartochka1{
+        width: 50%;
+        margin-top: 20px;
+    }
+    
+    .tovarkageiner .cartochka1{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .tovarkaCreatin .cartochka1{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .tovarka .cartochka1{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .divButton button{
+        margin-top: 10px;
+        padding: 10px 40px;
+         font-size: 15px;
+    }
+   
+   
+    
+    .tovarka .flex{
+        display: flex;
+    flex-wrap: wrap;
+
+    }
+    .верх_меню{
+    
+        font-size: 19px;
+        letter-spacing: 1px;
+        display:none;
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+    .divburger a{
+        width: 100%;
+        color: white;
+        padding-top: 8px;
+        font-family: "Russo One", sans-serif; 
+           font-size: 20px;
+    }
+    
+    .divburger{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .burgerplace{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    .buttonremoveFFF{
+        margin-top: 20px;
+        padding: 10px 20px;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        background-color: #0094e9;
+        color: white;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+    .holigan776{
+        
+        width: fit-content;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    
+    }
+    .h3photo img {
+        width: 50%;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+    .katalogH3{
+        font-size: 24px;
+        margin-top: 40px;
+    }
+    .korzinaPusto {
+        padding-right: 8px;
+        padding-left: 8px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 15px;
+        background-color: rgba(66, 66, 66, 0.4);
+        font-family: 'Ledger', serif;
+        text-align: center;
+        border-radius: 4px;
+    }
+    .korzinafull{
+        padding-right: 8px;
+        padding-left: 8px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 15px;
+        background-color: rgba(66, 66, 66, 0.4);
+        font-family: 'Ledger', serif;
+        text-align: center;
+        border-radius: 4px;
+    }
+    .photoBack img {
+        width: 40px;
+    }
+}
+
+@media(min-width: 1200px) and (max-width:1399px){
+    .divButton button {
+        padding: 15px 70px;
+        font-size: 23px;
+    }
+    .photoBack img{
+        margin-left: 20px;
+    }
+    .heell1{
+        font-size: 1.7em;
+    }
+    input[type="radio"] {
+        width: 25px !important;
+        height: 25px;
+    }
+    
+    
+    .korzinaPusto{
+        font-size: 22px;
+    }
+    .korzinafull{
+        font-size: 22px;
+    }
+    .katalogH3{
+        font-size: 35px;
+    }
+    .cartochka1 h3{
+        font-size: 22px;
+    }
+   
+    .zakaz3 h4 {
+        font-size: 22px;
+    }
+   
+    .zakaz1 h4 {
+        font-size: 22px;
+    }
+    .preki1{
+        font-size: 25px;
+    }
+    .zakaz2 h4 {
+        font-size: 22px;
+    }
+    .верх_меню{
+    
+        font-size: 20px;
+        display:flex;
+        justify-content: space-between;
+        padding: 10px 40px;
+    }
+    .glovnai1 img {
+        width: 65%;
+        margin: 0 auto;
+    }
+    .реклама{
+        width: 100%;
+        height: 500px;
+    }
+    
+
+.ifi{
+    height: 600px;
+}
+ 
+    .bottonimg{
+        width: 70%;
+    }
+    .div_11{
+        font-size: 18px;
+    }
+    .div_11 span{
+        font-size: 25px;
+    }
+    
+    footer h3 {
+        color: aliceblue;
+        font-size: 24px;
+    }
+    .katalogItem p {
+        font-size: 24px;
+    }
+    footer {
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 15px 15px 15px;
+        color: #808080;
+        margin-top: 120px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .div_footer{
+        font-size: 18px;
+    }
+    .tovarkaCreatin h3 {
+        height: fit-content;
+    }
+   
+    .cartochka1 p {
+        font-size: 1.3em;
+        font-family: 'Ledger', serif;
+    }
+    
+    .korzina-item h4 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .cartochka1 {
+        width: 33%;
+        margin: 0 auto;
+    }
+    .KakZakazat {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
+        font-family: 'Ledger', serif;
+        font-size: 22px;
+    }
+    .korzina-item h3 {
+        font-size: 23px;
+        padding: none;
+        margin: none;
+    }
+    .korzin123{
+        font-size: 20px;
+    }
+    .divKorzin {
+        margin-left: 1px;
+        font-size: 1.2em;
+        padding-left: 17px;
+        padding-top: 10px;
+        padding-right: 17px;
+        padding-bottom: 10px;
+        border: 3px solid rgba(70, 51, 41, 0.4);
+        border-radius: 6px;
+    }
+    .photoBack img {
+        width: 60px;
+    }
+
+  .pzaka1 p{
+    width: 350px;
+    font-size: 25px;
+    margin-right: 40px;
+    padding-right:40px ;
+  }
+  .widthImgpx{
+    width: 50px;
+  }
+  .zakaz1 input{
+    font-size: 1.7em;
+  }
+  .oldbuttonKarta{
+    width: 350px;
+  }
+  .oldbuttonKarta img {
+    width: 50%;
+}
+  .pzakaz1p2{
+    font-size: 19px;
+    margin-left:450px ;
+  }
+  .daleezakaz2{
+    margin-left: 880px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    font-size: 1.4em;
+  }
+  .preki{
+    font-size: 26px;
+  }
+  .submit{
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    font-size: 1.4em;
+  }
+  .korzina-item button{
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    font-size: 1.4em;
+    margin-top: 30px;
+        margin-bottom: 30px;
+  }
+  .daleezakaz3{
+    margin-left: 880px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    font-size: 1.4em;
+  }
+  .zakaz2 input {
+   font-size: 1.7em;
+}
+.kartaoplata {
+    width: 668px;
+    height: 432px;
+}
+.kartaoplata input {
+    font-size: 28px;
+}
+.cvvclass {
+    margin-top: 30px;
+    padding-left: 50px;
+}
+.cvvclass p {
+    font-size: 23px;
+}
+.cvvclass input {
+    margin-left: 15px;
+    margin-top: 28px;
+}
+.kartaoplata img {
+    margin-top: 35px;
+    width: 220px;
+    margin-left: 64%;
+}
+.inputkarta {
+    width: fit-content;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.input1321 {
+    font-size: 28px !important;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.ffff22112 p{
+    font-size: 28px;
+    letter-spacing:1.2px;
+}
+.ffff2211232 p{
+    font-size: 28px;
+    letter-spacing:1.2px;
+}
+.kraymeny img{
+    width: 40px;
+}
+.ifi button {
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    font-size: 1.2em;
+
+
+}
+.ifi div{
+    padding-top: 140px;
+}
+.tovarElevent .cartochka1 img {
+    width: 40%;
+}
+
+
+
+}
+
+@media(min-width: 1400px){
+    .реклама{
+        width: 100%;
+        height: 670px;
+    }
+    .heell1 {
+        font-size: 1.7em;
+    }
+    input[type="radio"] {
+        width: 25px !important;
+        height: 25px;
+    }
+    .korzinafull{
+        font-size: 25px;
+    }
+    
+    .ifi div{
+        padding-top: 230px;
+    }
+    .kraymeny img{
+        width: 50px;
+    }
+ 
+    .zakaz1 h4{
+        font-size: 25px;
+    }
+    .preki{
+        font-size: 30px;
+    }
+    .kartaoplata input{
+        font-size: 28px;
+    }
+    .widthImgpx{
+        width: 60px;
+      }
+    .верх_меню{
+        padding: 10px 40px;
+    }
+    .korzina-item h4{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    footer{
+        font-size: 1.3em;
+    }
+    .div_11{
+        font-size: 0.8em;
+    }
+    .div_11 span{
+        font-size: 22px;
+    }
+    footer h3{
+        font-size: 25px;
+    }
+    .верх_меню{
+        font-size: 23px;
+    }
+    .daleezakaz3{
+        margin-left: 715px;
+    }
+    .daleezakaz2{
+        margin-left: 715px;
+    }
+    .divKorzin {
+        margin-left: 1px;
+        font-size: 1.5em;
+        padding-left: 24px;
+        padding-top: 10px;
+        padding-right: 24px;
+        padding-bottom: 10px;
+        border: 3px solid rgba(70, 51, 41, 0.4);
+        border-radius: 6px;
+    }
+    .inputkarta {
+        width: fit-content;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+    .cvvclass {
+        margin-top: 30px;
+        padding-left: 50px;
+    }
+    .cvvclass p{
+        font-size: 23px;
+    }
+    .input1321 {
+        font-size: 28px !important;
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+    .kartaoplata img {
+        margin-top: 30px;
+        width: 220px;
+        margin-left: 64%;
+    }
+    .kartaoplata {
+     width: 668px;
+    height: 432px;
+    }
+    .h3photo img{
+        width: 90px;
+        padding-left: 20px;
+    }
+    .korzinaPusto {
+        font-size: 25px;
+    }
+
+.photoBack img {
+    width: 70px;
+    margin-left: 20px;
+}
+.katalogH3{
+    font-size: 40px;
+}
+.glovnai1 img{
+    width: 70%;
+}
+ h3 {
+    font-size: 1.9em;
+}
+
+.cartochka1 span {
+    font-size: 1.5em;
+    }
+    .korzina-item h3{
+        font-size: 1.8em;
+    }
+    .korzin123{
+        font-size: 1.5em;
+    }
+    .submit{
+        padding-left: 35px;
+        padding-top: 20px;
+        padding-right: 35px;
+        padding-bottom: 20px;
+        font-size: 1.4em; 
+    }
+    .korzina-item button{
+        padding-left: 35px;
+        padding-top: 20px;
+        padding-right: 35px;
+        padding-bottom: 20px;
+        font-size: 1.4em;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+  
+    .ffff22112 p{
+        font-size: 28px;
+        letter-spacing: 1.2px
+    }
+    .tovarkaCreatin h3 {
+        height: fit-content;
+    }
+    .ffff2211232 p{
+        font-size: 28px;
+        letter-spacing: 1.2px
+    }
+    .korzina-item{
+        margin-top: 0px;
+    }
+    .buttonremoveFFF{
+        padding-left: 35px;
+        padding-top: 20px;
+        padding-right: 35px;
+        padding-bottom: 20px;
+        font-size: 28px;
+    }
+    .KakZakazat{
+        font-size: 24px;
+    }
+    .daleezakaz2{
+        padding-left: 35px;
+        padding-top: 20px;
+        padding-right: 35px;
+        padding-bottom: 20px;
+        font-size: 1.4em;
+    }
+    .daleezakaz3{
+        padding-left: 35px;
+        padding-top: 20px;
+        padding-right: 35px;
+        padding-bottom: 20px;
+        font-size: 1.4em;
+    }
+    .ifi button {
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+        font-size: 1.2em;
+    }
+    .oldbuttonKarta{
+        width: 400px;
+    }
+    .oldbuttonKarta img{
+        width: 60%;
+    }
+    .preki1{
+        font-size: 30px;
+    }
+    
+    .cvvclass input{
+        margin-left: 15px;
+        margin-top: 28px;
+    }
+    
+
+    .pzaka1 p{
+        font-size: 1.5em;
+        width: 350px;
+    }
+    .zakaz1 input{
+        font-size: 1.3em;
+    }
+    .zakaz2 input{
+        font-size: 1.7em;
+    }
+    .pzakaz1p2{
+        font-size: 1.2em;
+        margin-left: 480px;
+    }
+    .zakaz2 h4{
+        font-size: 25px;
+    }
+    .zakaz3 h4{
+        font-size: 25px;
+    }
+.cartochka1 p {
+    font-size: 1.6em;
+    }
+.divButton button{
+    padding: 15px 70px;
+    font-size: 26px;
+}
+.razmerCartochka  h3{
+    font-size: 2em;
+}
+.tovarElevent #span {
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.opisanii h2{
+    font-size: 35px;
+}
+.katalogItem p{
+    font-size: 30px;
+}
+.tovarElevent .cartochka1 img{
+    width: 40%;
+}
+.ifi {
+    height: 700px;
+}
+.korzinFan img{
+    width: 100%;
+}
+.mapafff {
+    width: 100%;
+}
+.cartochka1 h3{
+    height: 60px;
+    font-size: 30px;
+}
+.oldbuttonKarta{
+    height: 300px;
+}
+.h3photo{
+    padding-left: 85%;
+    width: 150px;
+}
+.buttonremove9{
+    margin-top: 200px;
+}
+}
+@media(min-width: 1600px){
+    footer h3{
+        font-size: 32px;
+    }
+    .cartochka1 h3{
+        height: 60px;
+        font-size: 35px;
+    }
+    .korzinFan img{
+        width: 100%;
+    }
+    footer{
+        font-size: 1.7em;
+    }
+    .katalogItem p{
+        font-size: 32px;
+    }
+    .photoBack img {
+        width: 75px;
+    }
+    .glovnai1 img{
+        width: 80%;
+    }
+    .div_11{
+        font-size: 20px;
+        
+    }
+    .gggg1{
+        font-size: 22px;
+    }
+    .div_11 span{
+        font-size: 30px;
+    }
+    .KakZakazat{
+        font-size: 28px;
+        width: fit-content;
+    }
+    .korzinafull{
+        font-size: 28px;
+        width: fit-content;
+    }
+    .korzinaPusto{
+        font-size: 28px;
+    }
+    .h3photo{
+        padding-left: 85%;
+        width: 150px;
+    }
+    .h3photo img{
+        width: 95px;
+        padding-left: 20px;
+    }
+    .cartochka1{
+        padding-bottom: 30px;
+        width: 25%;
+    }
+    .korzina-item h4{
+        font-size: 2em;
+    }
+    .katalogH3 {
+        font-size: 50px;
+    }
+
+    .korzina-item button{
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+    .daleezakaz2{
+        font-size: 28px;
+        margin-left: 1005px;
+    }
+    .daleezakaz3{
+        font-size: 28px;
+        margin-left: 1005px;
+    }
+    .cartochka1 p{
+        font-size: 1.8em;
+    }
+    .submit{
+        font-size: 1.6em;
+    }
+    .верх_меню{
+        font-size: 26px;
+    }
+    .divButton button {
+        font-size: 28px;
+    }
+    .korzin123{
+        font-size: 1.6em;
+    }
+    .zakaz1 input {
+        padding-right: 300px;
+        font-size: 1.7em;
+    }
+    .zakaz2 input{
+        padding-right: 300px;
+    }
+    .heell1 input {
+        width: 50px;
+    }
+    .oldbuttonKarta{
+        height: 300px;
+    }
+    .pzaka1 p{
+        width: 500px;
+        font-size: 1.9em;
+    }
+    .pzakaz1p2{
+        margin-left: 660px;
+    }
+    .heell1{
+        font-size: 1.7em;
+    
+}
+.backgraund{
+    margin-top: 60px;
+}
+.buttonremove9{
+    margin-top: 200px;
+}
+}
